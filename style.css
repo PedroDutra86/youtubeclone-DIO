@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 24px;
+}
+
+.logo {
+  width: 96px;
+}
+
+.menulogo {
+  display: flex;
+  gap: 32px;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 28px 62px;
+  gap: 24px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 75%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-position: center;
+  background-size: cover;
+}
+
+.thumb {
+  height: 457px;
+  width: 752px;
+  background-color: black;
+}
+
+.content h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoname {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.channelname {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.channelsubs {
+  font-weight: 400;
+  font-size: 14px;
+  color: #515151;
+}
+
+.subbutton {
+  width: 160px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #cc0000;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.likebutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.dislikebutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.sharebutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.downloadbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 70%;
+}
+
+.description {
+  font-weight: 400;
+  color: #515151;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.minithumb {
+  width: 160px;
+  height: 90px;
+  background-color: black;
+}
+
+.video {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.textaside {
+  font-size: 12px;
+  width: 120px;
+}
+
+.minitext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
